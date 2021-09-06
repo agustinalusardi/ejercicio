@@ -1,0 +1,113 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+.filter1{
+	filter: grayscale(1);
+	margin-top: 10px;
+}
+
+.filter2{
+	filter: sepia(1);
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family:'sequel_sams' ;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+
+
+p{
+	color: #ffffff;
+	font-family: arial;
+	width: 600px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #f00;
+	border-color: #f00;
+	border-width: 2px;
+	border-style: solid;
+	font-size: 15px;
+	text-align: justify;
+}
+
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: arial;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+.multifondo {
+    width: 960px;
+    height: 640px;
+    background: url(../img/dados.png) left top no-repeat, url(../img/mesa.jpg) 0 0 no-repeat;
+	
+
+
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+}
+
+#redondo
+{
+border: 1px solid #553245;
+
+border-radius: 20px;
+
+} 
+
+.transparencia {
+    width: 960px;
+    height: 640px;
+    background: url(../img/mesa.jpg) 0 0 no-repeat;
+    background-size: 760px 640px;
+    opacity: 0.5;
+   
+}
+
+.degradado{
+
+ width:960px;
+ height: 640px;
+ margin: auto;
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.sombra {
+    width: 960px;
+    height: 640px;
+    background-color:#3498db;
+    box-shadow: 30px 5px 10px #95a5a6;
+    padding: 100px;
+    font-size: xx-large;
+    }
